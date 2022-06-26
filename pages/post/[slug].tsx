@@ -124,7 +124,7 @@ function Post({ post }: Props) {
             <input
               {...register('name', { required: true })}
               type="text"
-              placeholder="Jagaa Daku"
+              placeholder="Your name"
               className="form-input mt-1 block w-full rounded border py-2 px-3 shadow outline-none ring-yellow-500 focus:ring"
             />
           </label>
@@ -133,7 +133,7 @@ function Post({ post }: Props) {
             <input
               {...register('email', { required: true })}
               type="email"
-              placeholder="Jagaadaku1234@gmail.com"
+              placeholder="YourMail@gmail.com"
               className="form-input mt-1 block w-full rounded border py-2 px-3 shadow outline-none ring-yellow-500 focus:ring"
             />
           </label>
