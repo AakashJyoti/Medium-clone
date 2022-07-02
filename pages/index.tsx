@@ -12,7 +12,7 @@ export default function Home({ posts }: Props) {
   return (
     <div className="mx-auto max-w-7xl">
       <Head>
-        <title>Medium Blog Clone</title>
+        <title>BlogTera</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
